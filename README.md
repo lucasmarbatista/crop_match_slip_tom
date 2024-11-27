@@ -1,13 +1,14 @@
 # crop_match_slip_tom
 Crop the match slip printed from the TOM (Tournament Operations Manager) system provided to Organizers. The output .pdf file can be printed on any 58 mm thermal printer, for example, the POS-58 printer (model JLY-58).
 
-- [Download Windows App](https://drive.google.com/file/d/1uoo8HWbwGPdF7VAwICm2iybCK87fr2JG/view?usp=drive_link)
+- [Download Windows (.zip)](https://drive.google.com/file/d/1ytyQie2SJNNTRRW0Qw_BpCoIwBCmiiXJ/view)
+- [Download Windows (.exe)](https://drive.google.com/file/d/1uoo8HWbwGPdF7VAwICm2iybCK87fr2JG/view)
 
 ## Tutorial
 
-- [Tutorial with pictures (English)](https://docs.google.com/document/d/192dWLBdTF0V07t8vZuskYtMIyf7CMhtxE0CMEKWlkR4/edit?usp=drive_link)
+- [Tutorial with pictures (English)](https://docs.google.com/document/d/192dWLBdTF0V07t8vZuskYtMIyf7CMhtxE0CMEKWlkR4/edit)
 
-- [Tutorial com imagens (Português)](https://docs.google.com/document/d/185Rt67DwFnCKbkHu1ryvwpoR8krThXAZLQOQ7VEB8BI/edit?usp=drive_link)
+- [Tutorial com imagens (Português)](https://docs.google.com/document/d/185Rt67DwFnCKbkHu1ryvwpoR8krThXAZLQOQ7VEB8BI/edit)
 
 ### Tutorial Crop Match Slip TOM
 
