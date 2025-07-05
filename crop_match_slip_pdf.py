@@ -69,11 +69,11 @@ def run_crop():
       ]
 
     crop_pdf(input_path, output_folder_path, crops)
-    messagebox.showinfo("Success", "The PDF was cropped and saved successfully. Check the output folder for the file.")
+    messagebox.showinfo("Success", "The PDF was adjusted and saved successfully. Check the output folder for the file.")
 
 # GUI setup
 root = tk.Tk()
-root.title("PDF Cropper")
+root.title("Crop Match Slip PDF")
 root.geometry("600x200")
 
 # Configure the grid layout.

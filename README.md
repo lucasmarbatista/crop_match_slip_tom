@@ -1,8 +1,8 @@
 # crop_match_slip_tom
-Crop the match slip printed from the TOM (Tournament Operations Manager) system provided to Organizers. The output .pdf file can be printed on any 58 mm thermal printer, for example, the POS-58 printer (model JLY-58).
+Crop the match slip printed in PDF. The output .pdf file can be printed on any 58 mm thermal printer, for example, the POS-58 printer (model JLY-58).
 
-- [Download Windows (.zip)](https://drive.google.com/file/d/1ytyQie2SJNNTRRW0Qw_BpCoIwBCmiiXJ/view)
-- [Download Windows (.exe)](https://drive.google.com/file/d/1uoo8HWbwGPdF7VAwICm2iybCK87fr2JG/view)
+- [Download Windows (.zip)](https://drive.google.com/file/d/1qI9q4b6dQM6QpMv6kgMzFzQAIno4vo5t/view)
+- [Download Windows (.exe)](https://drive.google.com/file/d/1A6FwVGr5xrvX9xL1-RsXeJmpNba-mnnM/view)
 
 ## Tutorial
 
@@ -12,13 +12,19 @@ Crop the match slip printed from the TOM (Tournament Operations Manager) system 
 
 ### Tutorial Crop Match Slip TOM
 
-1. Input the Match Slip PDF file.
+1. Press CTRL + P in your browser and print as PDF.
+   Note: There are 2 methods to print as PDF normally.
+   First one is "Microsoft Print to PDF" and "Save as PDF"
+   Follow the instructions that match the way you printed or try both ways.
 
-2. Select the output path. Note: If the output path is not selected, the new PDF file will be created in the input file's directory.
+2. Click in "Select Input PDF" and select the Match Slip PDF file.
 
-3. Tick the box “Page with header” if the selected page has a header or white space at the top of the first page.
+3. Click in "Select Output PDF" Select the output path.
+   Note: If the output path is not selected, the new PDF file will be created in the input file's directory.
 
-4. Click “Crop PDF” and check the new PDF file.
+4. Tick the box “Microsoft print to PDF style page” if the selected page was printed using it.
+
+5. Click “Crop PDF” and check the new PDF file.
 
 ### Printing tutorial
 
