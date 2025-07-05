@@ -15,7 +15,7 @@ Crop the match slip printed in PDF. The output .pdf file can be printed on any 5
 1. Press CTRL + P in your browser and print as PDF.
    ````
    Note: There are 2 methods to print as PDF normally.
-   The First one is "Microsoft Print to PDF" and "Save as PDF"
+   The First one is "Microsoft Print to PDF" and "Save as PDF".
    Follow the instructions that match the way you printed or try both ways.
 2. Click "Select Input PDF" and select the Match Slip PDF file.
 
