@@ -5,7 +5,7 @@ import os
 import fitz  # PyMuPDF
 
 def crop_pdf(input_path, output_folder_path, crops):
-    output_file_name = os.path.splitext(os.path.basename(input_path))[0] + "_cropped.pdf"
+    output_file_name = os.path.splitext(os.path.basename(input_path))[0] + "_output.pdf"
     output_path = os.path.join(output_folder_path, output_file_name)
 
     pdf_document = fitz.open(input_path)
@@ -49,20 +49,20 @@ def run_crop():
     if not output_folder_path:
         output_folder_path = os.path.dirname(input_path)
 
-    # Get the checkbox state for including headers in the crop.
-    header_state = header_var.get()
+    # Check print style.
+    style_state = style_var.get()
 
-    # Define cropping areas based on the header state.
-    if header_state:
+    # Define cropping areas based on the style.
+    if style_state:
         crops = [
-          (1, 20, 590, 220),    # First area with header cropped.
-          (1, 221, 590, 418),   # Second area cropped
-          (1, 419, 590, 616),   # Third area cropped
-          (1, 617, 590, 814)    # Fourth area cropped
+          (1, 40, 590, 225),    # First area with Microsoft print style
+          (1, 230, 590, 415),   # Second area cropped
+          (1, 420, 590, 605),   # Third area cropped
+          (1, 615, 590, 800)    # Fourth area cropped
       ]
     else:
         crops = [
-          (1, 1, 590, 195),     # First area without header cropped.
+          (1, 1, 590, 195),     # First area without Microsoft print style.
           (1, 198, 590, 393),   # Second area cropped
           (1, 396, 590, 591),   # Third area cropped
           (1, 594, 590, 789)    # Fourth area cropped
@@ -91,9 +91,9 @@ output_button.grid(row=1, column=0, padx=10, pady=10, sticky="ew")
 output_entry = tk.Entry(root)
 output_entry.grid(row=1, column=1, padx=10, pady=10, sticky="ew")
 
-header_var = tk.BooleanVar(value=False) # Checkbox buttom for including page headers.
-header_checkbox = tk.Checkbutton(root, text="Page with header", variable=header_var)
-header_checkbox.grid(row=2, column=0, columnspan=2, padx=10, pady=5)
+style_var = tk.BooleanVar(value=False) # Checkbox buttom for Microsoft print sytle.
+style_checkbox = tk.Checkbutton(root, text="Microsoft print to PDF style page",variable=style_var)
+style_checkbox.grid(row=2, column=0, columnspan=2, padx=10, pady=5)
 
 crop_button = tk.Button(root, text="Crop PDF", command=run_crop)
 crop_button.grid(row=3, column=0, columnspan=2, padx=10, pady=10, sticky="ew")
