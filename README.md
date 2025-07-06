@@ -4,6 +4,10 @@ Crop the match slip printed in PDF. The output .pdf file can be printed on any 5
 - [Download for Windows (.zip)](https://drive.google.com/file/d/1qI9q4b6dQM6QpMv6kgMzFzQAIno4vo5t/view)
 - [Download for Windows (.exe)](https://drive.google.com/file/d/1A6FwVGr5xrvX9xL1-RsXeJmpNba-mnnM/view)
 
+### Printer (model JLY-58)
+
+![printer](images/picture-printer.png)
+
 ## Tutorial
 
 - [Tutorial with pictures (English)](https://docs.google.com/document/d/192dWLBdTF0V07t8vZuskYtMIyf7CMhtxE0CMEKWlkR4/edit)
@@ -12,21 +16,28 @@ Crop the match slip printed in PDF. The output .pdf file can be printed on any 5
 
 ### Tutorial Crop Match Slip TOM
 
-1. Press CTRL + P in your browser and print as PDF.
-   ````
-   Note: There are 2 methods to print as PDF normally.
-   The First one is "Microsoft Print to PDF" and "Save as PDF".
+1. Press CTRL + P in your browser and print as PDF. Choose the “Microsoft Print to PDF” or “Save as PDF”. 
+   ```
+   Note: These are the 2 methods to print as PDF .
    Follow the instructions that match the way you printed or try both ways.
+   ```
+![match-slip-tutorial-image-10](images/picture-10.png)
+
 2. Click "Select Input PDF" and select the Match Slip PDF file.
 
-![match-slip-tutorial-image-1](images/picture-1.png)
+![match-slip-tutorial-image-6](images/picture-6.png)
 
-1. Click "Select Output PDF" Select the output path.
+3. [Optional] Click "Select Output PDF"  and choose the output path.
    ```
-   Note: If the output path is not selected, the new PDF file will be created in the input file's directory.
-2.  Tick the box “Microsoft print to PDF style page” if the selected page was printed using it.
+   Note: If the output path is not specified, the new PDF file will be created in the directory of the input file.
+   ```
+   ![match-slip-tutorial-image-7](images/picture-7.png)
 
-3. Click “Crop PDF” and check the new PDF file.
+4. [Optional] Tick the box “Microsoft print to PDF style page” if the selected page was printed using it.
+   ![match-slip-tutorial-image-8](images/picture-8.png)
+
+5. Click “Crop PDF” and check the new PDF file.
+   ![match-slip-tutorial-image-9](images/picture-9.png)
 
 ### Printing tutorial
 
@@ -41,7 +52,7 @@ Crop the match slip printed in PDF. The output .pdf file can be printed on any 5
 
 ![match-slip-tutorial-image-2](images/picture-2.png)
 
-1. Click “Configure page”.
+5. Click “Configure page”.
 
 ![match-slip-tutorial-image-3](images/picture-3.png)
 
