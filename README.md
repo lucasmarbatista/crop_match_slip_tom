@@ -37,15 +37,17 @@ Crop the match slip printed in PDF. The output .pdf file can be printed on any 5
    ![match-slip-tutorial-image-8](images/picture-8.png)
 
 5. Click “Crop PDF” and check the new PDF file.
+
    ![match-slip-tutorial-image-9](images/picture-9.png)
 
 ### Printing tutorial
 
-1. Connect via USB and turn on the printer.
+1. Connect the printer via USB and turn it on.
 
-2. Open the PDF file with your PDF reader.
-   Note: In this tutorial, we will use Adobe PDF Reader.
-
+2. Open the PDF file with the **Adobe PDF Reader**.
+   ```
+   Note: The POS58 printer may not work properly when using the browser’s PDF viewer (such as Google Chrome or Edge).
+   ```
 3. Click “Print” or press Ctrl + P.
 
 4. In the printer selection box, choose the POS58 printer.
